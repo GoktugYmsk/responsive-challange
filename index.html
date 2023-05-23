@@ -69,22 +69,16 @@
             <div class="carousel-item active">
                 <img src="https://picsum.photos/id/120/1600/600" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Yeşil Uzay...</h5>
-                    <p>Belki de gökyüzü yeşilin içinde gizlidir.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://picsum.photos/id/121/1600/600" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Sırların ardı...</h5>
-                    <p>Vadilerin giz perdesi olduğunu biliyor muydunuz?</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://picsum.photos/id/122/1600/600" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Şehirdeki yabancı...</h5>
-                    <p>Aslında biz de uzaylıyız.</p>
                 </div>
             </div>
         </div>
@@ -103,7 +97,7 @@
     <!--    Jumbotron    -->
 
     <div class="row">
-        <div class="col-12 col-lg-12 container__jumbotron">
+        <div class="col-10 col-lg-10 container__jumbotron">
             <div class="jumbotron">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
@@ -114,6 +108,73 @@
                 </p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </div>
+        </div>
+    </div>
+
+
+    <!--    Accordion   -->
+
+    <div class="row">
+        <div class="col-6 col-lg-6">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Collapsible Group Item #1
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Some placeholder content for the first accordion panel. This panel is shown by default,
+                            thanks to the <code>.show</code> class.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Collapsible Group Item #2
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Some placeholder content for the second accordion panel. This panel is hidden by default.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Collapsible Group Item #3
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            And lastly, the placeholder content for the third and final accordion panel. This panel is
+                            hidden by default.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-6">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium placeat quidem, eum dolore error
+                fugit hic. Distinctio laudantium eos ut suscipit dolorem accusantium corrupti a et. Voluptatem non
+                commodi suscipit.</p>
         </div>
     </div>
 
@@ -173,33 +234,27 @@
             </div>
         </div>
     </div>
+
+    <!--    Alt Carousel   -->
+
     <!--    Footer    -->
-
-
-    <footer class="footer__container box-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-12">
-                    <div class="card">
-                        <h5 class="card-header bg-dark text-light">Featured</h5>
-                        <div class="card-body bg-dark text-light ">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-lg-12">
+            <div class="card text-center bg-dark text-light mt-5">
+                <div class="card-header">
+                    G-K-T
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title-1">Powered by G-K-T</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-success">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                    At the moment
                 </div>
             </div>
         </div>
-    </footer>
-
-
-
-
-
-
-
+    </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -221,5 +276,3 @@
 </body>
 
 </html
-
-
